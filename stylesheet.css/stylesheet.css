@@ -17,3 +17,12 @@ header h1 {
     color:red;
     text-indent: 30px;
 }
+header img {
+    float:left;
+}
+.shadow{
+    text-shadow: 2px 2px 2px rgb(128,0,0)
+}
+main{
+    clear:left;
+}
