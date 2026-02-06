@@ -19,15 +19,24 @@ header h2 {
 }
 header img {
     float:left;
-    filter: drop-shadow 100px 10px 0px rgb(100,10,10)
+    
 }
 .shadow{
     text-shadow: 2px 2px 2px rgb(128,0,0)
+    
 }
+
 main{
     clear:left;
 }
 header h3{
     Margin-top: 3em;
     font-size: 105%;
+}
+#list{
+    line-height:1.5em;
+}
+footer p.copyright{
+    text-align: Center;
+    font-size: 80%;
 }
