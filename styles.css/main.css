@@ -11,6 +11,7 @@ body{
     box-shadow:after;
     background:auto;
     background-attachment:backdrop;
+    background-color:white;
 }
 a:hover, a:focus {
     font-style: italic;
