@@ -43,7 +43,7 @@ header img {
 }
 main{
     clear:left;
-
+}
  main h3{
     Margin-top: 3em;
     font-size: 105%;
@@ -51,8 +51,7 @@ main{
     border:5px dashed solid black;
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px aqua;
-    padding: 1em;
-    }
+    padding: 1em; 
 }
 main nav{
     margin: 1.5em 2em 1.5em;
