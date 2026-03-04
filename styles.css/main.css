@@ -44,6 +44,11 @@ a:hover, a:focus {
     font-style: italic;
     color:azure; 
 }
+#nav_menu::after{
+    content:"";
+    display:block;
+    clear:both;
+} 
 header{
     margin-bottom:3em;
 }
