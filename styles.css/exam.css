@@ -2,6 +2,7 @@ html{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    background-image:rgb(100,237,237)
 }
 
 body{
@@ -17,7 +18,7 @@ body{
     background-image:url("images/shsu-logo.png") ;
     background-repeat: repeat-y;
     background-attachment: fixed;
-    background-color: rgb(100,237,237);
+    background-color: rgb(255, 255, 255);
 }
 nav{
     background-color:orange;
