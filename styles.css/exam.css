@@ -24,15 +24,18 @@ nav{
     background-color:orange;
     margin-bottom:20px;
 }
-#nav_menu ul{list-style-type: none;}
+#nav_exam ul{list-style-type: none;}
 
-#nav_menu ul li{float:left;}
+#nav_exam ul li{float:left;}
 
-#nav_menu ul li a{
+#nav_exam ul li a{
     text-align: Center;
     display:block;
     width:175px;
     padding: 1em 0;
+    background-color:blue;
+    color:white;
+    border-right: 2px solid white;
 
 }
 content.wrapper{
