@@ -58,3 +58,15 @@ content.wrapper{
     border:1px;
     padding:5px;
 }
+aside{
+    width:20%;
+    position:fixed;
+    right:5%;
+    top:150px;
+}
+footer{
+    margin-top:30px;
+    padding-top:15px;
+    border-top:2px solid black;
+    text-align:center;
+}
