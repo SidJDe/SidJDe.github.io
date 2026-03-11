@@ -28,7 +28,7 @@ nav{
 #nav_menu ul li{float:left;}
 
 #nav_menu ul li a{
-    text-align: left;
+    text-align: Center;
     display:block;
     width:175px;
     padding: 1em 0;
