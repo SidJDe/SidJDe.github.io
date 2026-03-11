@@ -33,6 +33,7 @@ nav{
     display:block;
     width:175px;
     padding: 1em 0;
+
 }
 content.wrapper{
     display:flex;
@@ -46,11 +47,11 @@ content.wrapper{
     text-align:justify;
 }
 p::first-letter{
-    font-size: 2em;
+    font-size: 1em;
     font-weight:bold;
     font-style:italic;
     float:left;
-    margin-right:5px;
+    margin-right:1px;
 }
 .float-right{
     float:right;
