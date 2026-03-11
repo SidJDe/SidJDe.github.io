@@ -19,3 +19,13 @@ body{
     background-attachment: fixed;
     background-color: rgb(100,237,237);
 }
+#nav_menu ul{list-style-type: none;}
+
+#nav_menu ul li{float:left;}
+
+#nav_menu ul li a{
+    text-align: left;
+    display:block;
+    width:175px;
+    padding: 1em 0;
+}
