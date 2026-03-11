@@ -44,12 +44,12 @@ content.wrapper{
     margin-bottom: 10px;
     text-align:justify;
 }
-p: :first-letter{
+p::first-letter{
     font-size: 2em;
-    font-weight: bold;
-    font-style: italic;
-    float: left;
-    margin-right: 5px;
+    font-weight:bold;
+    font-style:italic;
+    float:left;
+    margin-right:5px;
 }
 .float-right{
     float:right;
