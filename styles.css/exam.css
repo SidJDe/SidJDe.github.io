@@ -44,7 +44,7 @@ content.wrapper{
     margin-bottom: 10px;
     text-align:justify;
 }
-.first-letter{
+p: :first-letter{
     font-size: 2em;
     font-weight: bold;
     font-style: italic;
