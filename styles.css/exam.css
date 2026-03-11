@@ -58,7 +58,7 @@ content.wrapper{
     text-align:justify;
 }
 p::first-letter{
-    font-size: 1em;
+    font-size: 2em;
     font-weight:bold;
     font-style:italic;
     float:left;
