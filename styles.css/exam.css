@@ -38,3 +38,23 @@ content.wrapper{
     border-top:2px solid #333;
     padding-top: 20px;
 }
+
+
+.p{
+    margin-bottom: 10px;
+    text-align:justify;
+}
+.first-letter{
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    float: left;
+    margin-right: 5px;
+}
+.float-right{
+    float:right;
+    margin:0 0 15px 15px;
+    max-width: 300px;
+    border:1px;
+    padding:5px;
+}
