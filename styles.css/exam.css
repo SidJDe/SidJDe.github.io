@@ -44,7 +44,12 @@ nav{
     background-color:blue;
     color:white;
     border-right: 2px solid white;
-
+}
+#nav_exam ul li a.lastitem{
+    border-right:none
+}
+#nav_exam ul li a.current{
+    color:yellow
 }
 content.wrapper{
     display:flex;
