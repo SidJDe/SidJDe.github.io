@@ -5,6 +5,7 @@ html{
     background-image:linear-gradient(to left,rgb(100,237,237)white)
 }
 .page-title{
+    display:block;
     border-bottom:4px solid blue;
     padding-bottom:5px;
 }
