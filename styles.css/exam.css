@@ -20,37 +20,19 @@ body{
     background-attachment: fixed;
     background-color: rgb(255, 255, 255);
 }
-nav{
+#nav{
     background-color:blue;
     margin-bottom:20px;
     text-align: Center;
     display:block;
     width:175px;
     padding: 1em 0;
-    background-color:blue;
+    background-color:white;
     color:white;
     border-right: 2px solid white;
 
 }
-#nav_exam ul{list-style-type: none;}
 
-#nav_exam ul li{float:left;}
-
-#nav_exam ul li a{
-    text-align: Center;
-    display:block;
-    width:175px;
-    padding: 1em 0;
-    background-color:blue;
-    color:white;
-    border-right: 2px solid white;
-}
-#nav_exam ul li a.lastitem{
-    border-right:none
-}
-#nav_exam ul li a.current{
-    color:yellow
-}
 content.wrapper{
     display:flex;
     border-top:2px solid #333;
