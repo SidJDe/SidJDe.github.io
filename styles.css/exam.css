@@ -58,7 +58,7 @@ p::first-letter{
 .float-left{
     float:left;
     margin:0 0 15px 15px;
-    max-width: 300px;
+    max-width: 100px;
     border:1px;
     padding:5px;
 }
