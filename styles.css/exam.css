@@ -68,9 +68,10 @@ h1{
 }
 aside{
     width:20%;
-    position:fixed;
-    right:5%;
-    top:150px;
+    float:fixed;
+    background-color:aqua;
+    padding:10px;
+    margin-bottom:8em;
 }
 footer{
     margin-top:30px;
