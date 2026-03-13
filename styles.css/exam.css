@@ -63,6 +63,9 @@ p::first-letter{
     border:1px;
     padding:5px;
 }
+h1{
+    color:blue
+}
 aside{
     width:20%;
     position:fixed;
