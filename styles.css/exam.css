@@ -2,7 +2,7 @@ html{
     margin:0;
     padding:0;
     box-sizing: border-box;
-    background-image:linear-gradient(to left,rgb(100,237,237)white)
+    background-image:linear-gradient(to left,rgb(100,237,237),white)
 }
 .page-title{
     display:block;
