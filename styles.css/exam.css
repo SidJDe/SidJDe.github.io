@@ -39,9 +39,8 @@ body{
 #nav_exam ul li a.current{color:yellow}
 
 content.wrapper{
-    display:flex;
-    border-top:2px solid #333;
-    padding-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 250px ;
 }
 
 
@@ -75,6 +74,12 @@ aside{
     background-color:aqua;
     padding:10px;
     margin-bottom:8em;
+}
+article{
+    grid-column:1/4;
+    column-count: 3;
+    column-gap:20px;
+    column-rule:2px dotted black; 
 }
 aside ol{
     list-style-type: upper-roman;
