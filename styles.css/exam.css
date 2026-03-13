@@ -42,8 +42,6 @@ content.wrapper{
     display:grid;
     grid-template-columns: 1fr 1fr 250px ;
 }
-
-
 .p{
     margin-bottom: 10px;
     text-align:justify;
