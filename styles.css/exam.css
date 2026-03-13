@@ -95,3 +95,8 @@ footer{
     border-top:2px solid black;
     text-align:center;
 }
+footer p.copyright{ 
+    text-align: center;
+    font-size: 40%;
+
+}
