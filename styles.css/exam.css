@@ -23,6 +23,7 @@ body{
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgb(255,255,255);
 }
 #nav_exam ul{list-style-type:none;}
 #nav_exam ul li{float:left;}
