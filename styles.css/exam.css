@@ -20,11 +20,6 @@ body{
     border: 1px solid black;
     border-radius:25px;
     box-shadow: 5px 5px 0 0;
-    background-image:url("images/shsu-logo.png") ;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color:transparent,rgb(255,255,255);
 }
 #nav_exam ul{list-style-type:none;}
 #nav_exam ul li{float:left;}
