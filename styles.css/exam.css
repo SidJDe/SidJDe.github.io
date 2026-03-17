@@ -84,6 +84,7 @@ article{
     column-rule:2px dotted blue; 
     margin-left:2em;
     margin-bottom:2em;
+    float: right;
 }
 aside ol{
     list-style-type: upper-roman;
