@@ -13,7 +13,8 @@ body {
     border:solid black;
     box-shadow:5px 5px 0 0;
 }
-nav {
+#nav_exam ul li{
+    float:left;
     background-color: darkblue;
     text-align: center;
     padding: 10px 0;
