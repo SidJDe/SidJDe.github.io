@@ -85,7 +85,7 @@ aside a:hover {
 footer{
     width: 95%;
     text-align: center;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid blue;
     padding: 10px;
 }
 h1 {
