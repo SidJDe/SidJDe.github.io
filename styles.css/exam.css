@@ -24,7 +24,7 @@ body {
     color:white;
     border-right:2px solid white;
 }
-
+#nav_exam ul li a.current{color:yellow}
 article {
     width: 75%;
     margin: 20px auto;
