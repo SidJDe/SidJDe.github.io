@@ -20,7 +20,7 @@ body{
     line-height:1.6;
     font-size:110%;
     width:95%;
-    float: right;
+    float: right 1em;
     margin:15px auto;
     padding:20px;
     border: 1px solid black;
