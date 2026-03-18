@@ -9,6 +9,8 @@ body {
     background-position: right;
     background-attachment: fixed;
     width: 95%;
+    border:solid black;
+    box-shadow:5px 5px 0 0;
 }
 nav {
     background-color: darkblue;
