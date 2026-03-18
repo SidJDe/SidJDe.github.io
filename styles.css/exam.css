@@ -32,7 +32,17 @@ article {
     border: 2px solid #000;
     z-index: 1;
     position: relative;
+    float: left;
+    width: 70%;
+    margin: 20px auto;
+    background-color: #ffffffcc;
+    padding: 20px;
+    border: 2px solid #000;
+    column-count: 3;
+    column-rule: 3px dotted blue;
+    column-gap: 2em;
 }
+
 img {
     float: left;
     width: 150px;
@@ -84,15 +94,7 @@ article p::first-letter {
     font-weight: bold;
     font-size: 2em;
 }
-article {
-    clear: left;
-    width: 70%;
-    float: left;
-    column-count: 3;
-    column-rule: 3px dotted blue;
-    column-gap: 2em;
-    margin-left: 2em;
-}
+
 footer p.copyright{
     text-align: center;
     font-size: 80%;
