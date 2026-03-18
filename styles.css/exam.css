@@ -6,6 +6,7 @@ body {
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: fixed;
+    background-image: linear-gradient(100,237,237);
     padding:15px 1.5em;
     width: 95%;
     border:solid black;
