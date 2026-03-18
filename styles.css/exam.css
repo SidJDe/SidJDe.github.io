@@ -12,7 +12,10 @@ body {
     border:solid black;
     box-shadow:5px 5px 0 0;
 }
-#nav_exam ul{list-style-type: none;}
+#nav_exam ul{
+    list-style-type: none;
+    border-bottom: 3px solid blue;
+}
 #nav_exam ul li{float:left;}
 #nav_exam ul li a{
     text-align: center;
