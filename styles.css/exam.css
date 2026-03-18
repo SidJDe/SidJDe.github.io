@@ -19,6 +19,10 @@ body {
 }
 #nav_exam ul{
     list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    border-bottom:3px solid blue;
 }
 #nav_exam ul li{
     float:left;
