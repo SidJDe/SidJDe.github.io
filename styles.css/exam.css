@@ -1,109 +1,92 @@
-html{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    background: url(images/shsu-logo.png);
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px auto;
+    background: url("../images/shsu-logo.png");
     background-repeat: repeat-y;
-    background-position:right;
+    background-position: right;
     background-attachment: fixed;
-    background-image:linear-gradient(to right,rgb(100,237,237),white);
-    
-    
+    width: 95%;
 }
-.page-title{
-    display:block;
-    border-bottom:4px solid blue;
-    padding-bottom:5px;
-}
-body{
-    font-family:Arial, Helvetica, sans-serif ;
-    line-height:1.6;
-    font-size:110%;
-    width:95%;
-    float: right 1em;
-    margin:15px auto;
-    padding:20px;
-    border: 1px solid black;
-    border-radius:25px;
-    box-shadow: 5px 5px 0 0;
-}
-#nav_exam ul{list-style-type:none;}
-#nav_exam ul li{float:left;}
-#nav_exam ul li a{
+nav {
+    background-color: darkolivegreen;
     text-align: center;
-    display:block;
-    width:175px;
-    padding: 1em 0;
-    text-decoration:none;
-    background-color:blue;
-    color:white;
-    border-right:2px solid white;
+    padding: 10px 0;
 }
-#nav_exam ul li a.current{color:yellow}
-
-content.wrapper{
-    display:grid;
-    grid-template-columns: 1fr 250px ;
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.p{
-    margin-bottom: 10px;
-    text-align:justify;
+nav li {
+    display: inline-block;
+    margin: 0 15px;
 }
-p::first-letter{
-    font-size: 1em;
-    font-weight:bold;
-    font-style:italic;
-    float:left;
-    margin-right:1px;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
-.float-left{
-    float:left;
-    margin:0 0 15px 15px;
-    max-width: 150px;
-    border:1px;
-    padding:5px;
+article {
+    width: 75%;
+    margin: 20px auto;
+    background-color: #ffffffcc;
+    padding: 20px;
+    border: 2px solid #000;
+    z-index: 1;
+    position: relative;
 }
-h1{
-    color:blue
+img {
+    float: left;
+    width: 150px;
+    margin: 10px 15px 10px 0;
+    border: 1px solid darkolivegreen;
 }
-h2{
-    color: blue;
+aside {
+    width: 20%;
+    position: fixed;
+    top: 160px;
+    right: 10px;
+    background-color: beige;
+    border: 2px solid darkolivegreen;
+    padding: 10px;
 }
-.special{
-    color:blue
+aside ul {
+    list-style-type: square;
+    padding-left: 20px;
 }
-aside{
-    width:15%;
-    float:fixed;
-    background-color:white
-    padding 10px;
-    margin-bottom:8em;
+aside a {
+    text-decoration: none;
+    color: darkolivegreen;
 }
-article{
-    column-count:4;
-    column-gap:2em;
-    column-rule:2px dotted blue; 
-    margin-left:2em;
-    margin-bottom:2em;
-    float: right 1em;
-}
-aside ol{
-    list-style-type: upper-roman;
-}
-aside ol ul{
-    list-style-type: disc;
-}
-aside ol ul ol{
-    list-style-type: lower-alpha;
+aside a:hover {
+    text-decoration: underline;
 }
 footer{
-    margin-top:30px;
-    padding-top:15px;
-    border-top:2px solid black;
-    text-align:center;
+    width: 95%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px;
 }
-footer p.copyright{ 
+h1, h2 {
+    color: purple;
+}
+p {
+    line-height: 1.6;
+}
+article p::first-letter {
+    font-weight: bold;
+    font-size: 3em;
+}
+article {
+    clear: left;
+    width: 70%;
+    float: left;
+    column-count: 3;
+    column-rule: 3px dotted blue;
+    column-gap: 2em;
+    margin-left: 2em;
+}
+footer p.copyright{
     text-align: center;
     font-size: 80%;
-
 }
