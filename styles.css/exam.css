@@ -105,7 +105,7 @@ footer {
     clear: both;
     width: 95%;
     text-align: center;
-    border-top: 1px solid #ccc;
+    border-top: 2px solid blue;
     padding: 10px;
 }
 footer p.copyright{
