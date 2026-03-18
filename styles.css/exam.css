@@ -8,6 +8,7 @@ body {
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: fixed;
+    padding:15px 1.5em;
     width: 95%;
     border:solid black;
     box-shadow:5px 5px 0 0;
@@ -89,7 +90,7 @@ p {
 }
 article p::first-letter {
     font-weight: bold;
-    font-size: 1em;
+    font-size: 2em;
 }
 article {
     clear: left;
