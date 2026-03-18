@@ -13,26 +13,18 @@ body {
     border:solid black;
     box-shadow:5px 5px 0 0;
 }
-#nav_exam ul li{
-    float:left;
-    background-color: darkblue;
+#nav_exam ul li{float:left;}
+#nav_exam ul li a{
     text-align: center;
-    padding: 10px 0;
+    display:block;
+    width:175px;
+    padding: 1em 0;
+    text-decoration:none;
+    background-color:blue;
+    color:white;
+    border-right:2px solid white;
 }
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-nav li {
-    display: inline-block;
-    margin: 0 15px;
-}
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+
 article {
     width: 75%;
     margin: 20px auto;
