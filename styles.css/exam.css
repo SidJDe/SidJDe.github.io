@@ -67,8 +67,11 @@ footer{
     border-top: 1px solid #ccc;
     padding: 10px;
 }
-h1, h2 {
-    color: purple;
+h1 {
+    color:blue;
+}
+h2{
+    color:blue;
 }
 p {
     line-height: 1.6;
