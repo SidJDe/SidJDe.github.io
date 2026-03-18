@@ -1,8 +1,11 @@
+html{
+    background: linear-gradient(to right, rgb(100,237,237), white);
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 15px auto;
-    background:url("../images/shsu-logo.png"), linear-gradient(to right,rgb(100,237,237));
+    background:url("../images/shsu-logo.png");
     background-repeat: repeat-y;
     background-position: right;
     background-attachment: fixed;
