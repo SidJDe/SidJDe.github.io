@@ -94,7 +94,13 @@ article p::first-letter {
     font-weight: bold;
     font-size: 2em;
 }
-
+footer {
+    clear: both;
+    width: 95%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
 footer p.copyright{
     text-align: center;
     font-size: 80%;
