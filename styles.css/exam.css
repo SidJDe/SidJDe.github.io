@@ -14,7 +14,6 @@ body {
 }
 #nav_exam ul{
     list-style-type: none;
-    border-bottom: 3px solid blue;
 }
 #nav_exam ul li{float:left;}
 #nav_exam ul li a{
@@ -26,6 +25,7 @@ body {
     background-color:blue;
     color:white;
     border-right:2px solid white;
+    border-bottom: 3px solid blue;
 }
 #nav_exam ul li a.current{color:yellow}
 article {
