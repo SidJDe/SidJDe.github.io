@@ -45,7 +45,6 @@ display: none;
 .menu-button,
 .menu-button::before,
 .menu-button::after {
-
 display: block;
 background-color: #fff;
 position: absolute;
