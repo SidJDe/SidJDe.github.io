@@ -34,3 +34,34 @@ border: 2px solid purple;
 table.second thead tr:first-child{
 border-bottom: 2px solid purple;
 }
+.job-table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Title row with orange bottom line */
+.table-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 3px solid orange;
+}
+
+/* Header row */
+.header-row th {
+  padding: 10px;
+}
+
+/* Remove vertical lines */
+.job-table th,
+.job-table td {
+  border: none;
+  padding: 10px;
+}
+
+/* Bottom orange line */
+.job-table tr:last-child td {
+  border-bottom: 3px solid orange;
+}
