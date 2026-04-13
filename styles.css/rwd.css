@@ -96,7 +96,7 @@ font-size: 100%;
 }
 
 .content-section {
-  flex: 2;
+  flex: 1.2;
   padding: 1rem;
   background: white;
 }
