@@ -36,13 +36,15 @@ border-bottom: 2px solid purple;
 }
 .third-table {
     border:orange;
-    border-bottom:orange
+    border-top:orange;
+    border-bottom:orange;
 }
 .table-title {
   background-color: #8fd19e; 
   text-align: center;
   font-weight: bold;
   padding: 10px;
+  border-top: orange;
   border-bottom: 3px solid orange;
 }
 
