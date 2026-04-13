@@ -54,7 +54,7 @@ border-bottom: 2px solid purple;
 }
 .third-table th,
 .third-table td {
-  border: none;
+  border: orange;
   padding: 10px;
 }
 .third-table tr:last-child td {
