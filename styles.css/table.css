@@ -38,6 +38,28 @@ border-bottom: 2px solid purple;
     border:orange;
     border-bottom:orange
 }
-table.third thead tr:first-child{
-    background-color:aquamarine
+.table-title {
+  background-color: #8fd19e; 
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 3px solid orange;
+}
+
+.header-row th {
+  background-color: #8fd19e;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid orange;
+}
+.job-table th,
+.job-table td {
+  border: none;
+  padding: 10px;
+}
+.job-table tr:last-child td {
+  border-bottom: 3px solid orange;
+}
+.job-table td:last-child {
+  text-align: right;
 }
