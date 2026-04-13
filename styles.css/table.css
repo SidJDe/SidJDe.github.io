@@ -52,14 +52,14 @@ border-bottom: 2px solid purple;
   padding: 10px;
   border-bottom: 2px solid orange;
 }
-.job-table th,
-.job-table td {
+.third-table th,
+.third-table td {
   border: none;
   padding: 10px;
 }
-.job-table tr:last-child td {
+.third-table tr:last-child td {
   border-bottom: 3px solid orange;
 }
-.job-table td:last-child {
+.third-table td:last-child {
   text-align: right;
 }
