@@ -28,12 +28,12 @@ font-size: 100%;
   padding: 0;
 }
 
-.menu > li {
+.side-menus > li {
   margin: 0 1rem;
   overflow: hidden;
 }
 
-.menu a {
+.side-menus a {
   color: white;
   text-decoration: none;
 }
