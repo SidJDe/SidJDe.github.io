@@ -165,7 +165,7 @@ font-size: 100%;
     max-width: 100%;
   }
 }
-footer{
+footer p.copyright{
      clear: both;
     width: 95%;
     text-align: center;
