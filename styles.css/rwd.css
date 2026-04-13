@@ -165,9 +165,9 @@ font-size: 100%;
   }
 }
 footer p.copyright{
-     clear: both;
+    font-size:.8em;
     width: 95%;
     text-align: center;
-    border-top: 2px orange;
+    border-top: 2px #f46b45;
     padding: 10px;
 }
