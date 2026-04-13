@@ -82,3 +82,8 @@ section{
     text-decoration:none;
     color: white;
 }
+img{
+    width: 2000px;
+    margin: 10px 15px 10px 0;
+    border: 1px solid black;
+}
