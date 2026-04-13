@@ -122,10 +122,9 @@ font-size: 100%;
 
 .main-image {
   display: block;
-  width: 70%;
-  max-width: 500px;
-  height: auto;
-  margin: 1rem auto;
+  width: 100%;
+  max-width: 760px;
+  margin: auto;
 }
 
 /* mobile */
@@ -165,4 +164,11 @@ font-size: 100%;
     width: 100%;
     max-width: 100%;
   }
+}
+footer{
+     clear: both;
+    width: 95%;
+    text-align: center;
+    border-top: 2px orange;
+    padding: 10px;
 }
