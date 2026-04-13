@@ -35,7 +35,7 @@ table.second thead tr:first-child{
 border-bottom: 2px solid purple;
 }
 .third-table {
-    border:orange;
+    border: 2px orange;
     border-top:orange;
     border-bottom:orange;
 }
@@ -44,7 +44,7 @@ border-bottom: 2px solid purple;
   text-align: center;
   font-weight: bold;
   padding: 10px;
-  border-top: orange;
+  border-top:2px orange;
   border-bottom: 3px solid orange;
 }
 
