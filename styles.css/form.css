@@ -22,8 +22,11 @@ input,select{
     margin-left:.5em;
     margin-bottom:.5em;
 }
-input:valid{
+input:required{
     border:3px solid red;
+}
+input:valid{
+    border:1px solid black;
 }
 input:invalid{
     box-shadow:none;
