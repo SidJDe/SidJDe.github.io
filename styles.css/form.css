@@ -8,7 +8,7 @@ legend{
     color:#931420;
     font-weight:bold;
     font-size:85%;
-    margin-bottom:5em;
+    margin-bottom:.5em;
 }
 label,input,select{
     font-size:90%;
@@ -19,8 +19,8 @@ label{
     text-align:right;
 }
 input,select{
-    margin-left:5em;
-    margin-bottom:5em;
+    margin-left:.5em;
+    margin-bottom:.5em;
 }
 input:valid{
     border:3px solid red;
